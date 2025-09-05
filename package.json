@@ -6,7 +6,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'No build needed",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+>>>>>>> ad50daddc39c7e7b880785629b9750dd16f067e9
   },
   "keywords": [],
   "author": "",
